@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" width="985px" height="580px" font-family="ConsolasFallback,Consolas,monospace" font-size="16px" role="img" aria-labelledby="title desc">
 <title id="title">Earl Salimbot's GitHub profile</title>
 <desc id="desc">A terminal-style profile card with contact details and GitHub stats.</desc>
@@ -17,10 +17,10 @@ size-adjust: 109%;
 .art {fill:#c9d1d9;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="985px" height="580px" fill="#0D1117" rx="15"/>
+<rect width="985px" height="580px" fill="#0D1117" rx="15" />
 <g fill="#f8bc2d">
 <text x="555" y="130" class="art">
-<tspan x="555" y="130"></tspan>
+<tspan x="555" y="130" />
 <tspan x="555" y="152">                    =:</tspan>
 <tspan x="555" y="174">                   -#=.</tspan>
 <tspan x="555" y="196">                  :#*+-.</tspan>
@@ -37,27 +37,27 @@ text, tspan {white-space: pre;}
 <tspan x="555" y="438">        .#######****#*+====+-:*%#######++++:</tspan>
 <tspan x="555" y="460">        -+=++++=======------:-+=++=====----:</tspan>
 </text>
-<text x="20" y="30" opacity="0"><set attributeName="opacity" to="1" begin="0s" fill="freeze"/><tspan>&#160;—&#160;</tspan><tspan class="main">Earl Salimbot</tspan><tspan>&#160;————————————————————————————————————————————————</tspan></text>
-<text x="20" y="70" opacity="0"><set attributeName="opacity" to="1" begin="0.06s" fill="freeze"/>&#160;—&#160;<tspan class="main">About</tspan>&#160;—————————————————————————————————————————</text>
-<text x="20" y="90" opacity="0"><set attributeName="opacity" to="1" begin="0.12s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">OS</tspan>:<tspan class="cc">&#160;..........................&#160;</tspan><tspan class="value">Linux, Windows</tspan></text>
-<text x="20" y="110" opacity="0"><set attributeName="opacity" to="1" begin="0.18s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Uptime</tspan>:<tspan class="cc">&#160;......................&#160;</tspan><tspan class="value">9 years in production</tspan></text>
-<text x="20" y="130" opacity="0"><set attributeName="opacity" to="1" begin="0.24s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="cc">&#160;.......&#160;</tspan><tspan class="value">Python, C++, C#, TypeScript</tspan></text>
-<text x="20" y="150" opacity="0"><set attributeName="opacity" to="1" begin="0.30s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Languages.Spoken</tspan>:<tspan class="cc">&#160;............&#160;</tspan><tspan class="value">English, Filipino</tspan></text>
-<text x="20" y="170" opacity="0"><set attributeName="opacity" to="1" begin="0.36s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Studying</tspan>:<tspan class="cc">&#160;....................&#160;</tspan><tspan class="value">BS CS @ Norzagaray College &#x27;27</tspan></text>
-<text x="20" y="210" opacity="0"><set attributeName="opacity" to="1" begin="0.42s" fill="freeze"/>&#160;—&#160;<tspan class="main">Contact</tspan>&#160;———————————————————————————————————————</text>
-<text x="20" y="230" opacity="0"><set attributeName="opacity" to="1" begin="0.48s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Email</tspan>:<tspan class="cc">&#160;.......................&#160;</tspan><tspan class="value">juhniarl@gmail.com</tspan></text>
-<text x="20" y="250" opacity="0"><set attributeName="opacity" to="1" begin="0.54s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc">&#160;....................&#160;</tspan><tspan class="value">earl-salimbot</tspan></text>
-<text x="20" y="270" opacity="0"><set attributeName="opacity" to="1" begin="0.60s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">GitHub</tspan>:<tspan class="cc">&#160;......................&#160;</tspan><tspan class="value">urlsalimbot</tspan></text>
-<text x="20" y="290" opacity="0"><set attributeName="opacity" to="1" begin="0.66s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Website</tspan>:<tspan class="cc">&#160;.....................&#160;</tspan><tspan class="value">urlsalimbot.github.io</tspan></text>
-<text x="20" y="330" opacity="0"><set attributeName="opacity" to="1" begin="0.72s" fill="freeze"/>&#160;—&#160;<tspan class="main">Stats</tspan>&#160;—————————————————————————————————————————</text>
-<text x="20" y="350" opacity="0"><set attributeName="opacity" to="1" begin="0.78s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Repos</tspan>:<tspan class="cc">&#160;.......................&#160;</tspan><tspan class="value">14 | Contributed: 16</tspan></text>
-<text x="20" y="370" opacity="0"><set attributeName="opacity" to="1" begin="0.84s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Contributions</tspan>:<tspan class="cc">&#160;...............&#160;</tspan><tspan class="value">2,209 | Followers: 0</tspan></text>
-<text x="20" y="390" opacity="0"><set attributeName="opacity" to="1" begin="0.90s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Stars</tspan>:<tspan class="cc">&#160;.......................&#160;</tspan><tspan class="value">1 | Public since: 2021</tspan></text>
-<text x="20" y="430" opacity="0"><set attributeName="opacity" to="1" begin="0.96s" fill="freeze"/>&#160;—&#160;<tspan class="main">Experience</tspan>&#160;————————————————————————————————————</text>
-<text x="20" y="450" opacity="0"><set attributeName="opacity" to="1" begin="1.02s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">Non.Deficere.Studio</tspan>:<tspan class="cc">&#160;.........&#160;</tspan><tspan class="value">2017–present (9 years)</tspan></text>
-<text x="20" y="470" opacity="0"><set attributeName="opacity" to="1" begin="1.08s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">KAPWA.Capstone</tspan>:<tspan class="cc">&#160;..............&#160;</tspan><tspan class="value">2026–present</tspan></text>
-<text x="20" y="490" opacity="0"><set attributeName="opacity" to="1" begin="1.14s" fill="freeze"/><tspan>&#160;•&#160;</tspan><tspan class="key">UniHealth</tspan>:<tspan class="cc">&#160;...................&#160;</tspan><tspan class="value">2025</tspan></text>
-<text x="35" y="535" opacity="0"><set attributeName="opacity" to="1" begin="1.5s" fill="freeze"/><tspan>╭──(</tspan><tspan class="value">earl</tspan><tspan>@</tspan><tspan class="value">dev</tspan><tspan>)-[</tspan><tspan class="main">~</tspan><tspan>]</tspan></text>
-<text x="35" y="555" opacity="0"><set attributeName="opacity" to="1" begin="1.5s" fill="freeze"/><tspan>╰─</tspan><tspan class="value">$</tspan><tspan class="main"> <tspan>█<animate attributeName="opacity" values="1;0" dur="1s" begin="1.5s" calcMode="discrete" repeatCount="indefinite"/></tspan></tspan></text>
+<text x="20" y="30" opacity="0"><set attributeName="opacity" to="1" begin="0s" fill="freeze" /><tspan> — </tspan><tspan class="main">Earl Salimbot</tspan><tspan> ————————————————————————————————————————————————</tspan></text>
+<text x="20" y="70" opacity="0"><set attributeName="opacity" to="1" begin="0.06s" fill="freeze" /> — <tspan class="main">About</tspan> —————————————————————————————————————————</text>
+<text x="20" y="90" opacity="0"><set attributeName="opacity" to="1" begin="0.12s" fill="freeze" /><tspan> • </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> .......................... </tspan><tspan class="value">Linux, Windows</tspan></text>
+<text x="20" y="110" opacity="0"><set attributeName="opacity" to="1" begin="0.18s" fill="freeze" /><tspan> • </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">9 years in production</tspan></text>
+<text x="20" y="130" opacity="0"><set attributeName="opacity" to="1" begin="0.24s" fill="freeze" /><tspan> • </tspan><tspan class="key">Languages.Programming</tspan>:<tspan class="cc"> ....... </tspan><tspan class="value">Python, C++, C#, TypeScript</tspan></text>
+<text x="20" y="150" opacity="0"><set attributeName="opacity" to="1" begin="0.30s" fill="freeze" /><tspan> • </tspan><tspan class="key">Languages.Spoken</tspan>:<tspan class="cc"> ............ </tspan><tspan class="value">English, Filipino</tspan></text>
+<text x="20" y="170" opacity="0"><set attributeName="opacity" to="1" begin="0.36s" fill="freeze" /><tspan> • </tspan><tspan class="key">Studying</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">BS CS @ Norzagaray College '27</tspan></text>
+<text x="20" y="210" opacity="0"><set attributeName="opacity" to="1" begin="0.42s" fill="freeze" /> — <tspan class="main">Contact</tspan> ———————————————————————————————————————</text>
+<text x="20" y="230" opacity="0"><set attributeName="opacity" to="1" begin="0.48s" fill="freeze" /><tspan> • </tspan><tspan class="key">Email</tspan>:<tspan class="cc"> ....................... </tspan><tspan class="value">juhniarl@gmail.com</tspan></text>
+<text x="20" y="250" opacity="0"><set attributeName="opacity" to="1" begin="0.54s" fill="freeze" /><tspan> • </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> .................... </tspan><tspan class="value">earl-salimbot</tspan></text>
+<text x="20" y="270" opacity="0"><set attributeName="opacity" to="1" begin="0.60s" fill="freeze" /><tspan> • </tspan><tspan class="key">GitHub</tspan>:<tspan class="cc"> ...................... </tspan><tspan class="value">urlsalimbot</tspan></text>
+<text x="20" y="290" opacity="0"><set attributeName="opacity" to="1" begin="0.66s" fill="freeze" /><tspan> • </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> ..................... </tspan><tspan class="value">urlsalimbot.github.io</tspan></text>
+<text x="20" y="330" opacity="0"><set attributeName="opacity" to="1" begin="0.72s" fill="freeze" /> — <tspan class="main">Stats</tspan> —————————————————————————————————————————</text>
+<text x="20" y="350" opacity="0"><set attributeName="opacity" to="1" begin="0.78s" fill="freeze" /><tspan> • </tspan><tspan class="key">Repos</tspan>:<tspan class="cc" id="repo_data_dots"> ....................... </tspan><tspan class="value" id="repo_data">15</tspan><tspan class="value"> | Contributed: </tspan><tspan class="value" id="contrib_data">17</tspan></text>
+<text x="20" y="370" opacity="0"><set attributeName="opacity" to="1" begin="0.84s" fill="freeze" /><tspan> • </tspan><tspan class="key">Contributions</tspan>:<tspan class="cc" id="commit_data_dots"> ............... </tspan><tspan class="value" id="commit_data">2,211</tspan><tspan class="value"> | Followers: </tspan><tspan class="value" id="follower_data">0</tspan></text>
+<text x="20" y="390" opacity="0"><set attributeName="opacity" to="1" begin="0.90s" fill="freeze" /><tspan> • </tspan><tspan class="key">Stars</tspan>:<tspan class="cc" id="star_data_dots"> ....................... </tspan><tspan class="value" id="star_data">1</tspan><tspan class="value"> | Public since: 2021</tspan></text>
+<text x="20" y="430" opacity="0"><set attributeName="opacity" to="1" begin="0.96s" fill="freeze" /> — <tspan class="main">Experience</tspan> ————————————————————————————————————</text>
+<text x="20" y="450" opacity="0"><set attributeName="opacity" to="1" begin="1.02s" fill="freeze" /><tspan> • </tspan><tspan class="key">Non.Deficere.Studio</tspan>:<tspan class="cc"> ......... </tspan><tspan class="value">2017–present (9 years)</tspan></text>
+<text x="20" y="470" opacity="0"><set attributeName="opacity" to="1" begin="1.08s" fill="freeze" /><tspan> • </tspan><tspan class="key">KAPWA.Capstone</tspan>:<tspan class="cc"> .............. </tspan><tspan class="value">2026–present</tspan></text>
+<text x="20" y="490" opacity="0"><set attributeName="opacity" to="1" begin="1.14s" fill="freeze" /><tspan> • </tspan><tspan class="key">UniHealth</tspan>:<tspan class="cc"> ................... </tspan><tspan class="value">2025</tspan></text>
+<text x="35" y="535" opacity="0"><set attributeName="opacity" to="1" begin="1.5s" fill="freeze" /><tspan>╭──(</tspan><tspan class="value">earl</tspan><tspan>@</tspan><tspan class="value">dev</tspan><tspan>)-[</tspan><tspan class="main">~</tspan><tspan>]</tspan></text>
+<text x="35" y="555" opacity="0"><set attributeName="opacity" to="1" begin="1.5s" fill="freeze" /><tspan>╰─</tspan><tspan class="value">$</tspan><tspan class="main"> <tspan>█<animate attributeName="opacity" values="1;0" dur="1s" begin="1.5s" calcMode="discrete" repeatCount="indefinite" /></tspan></tspan></text>
 </g>
 </svg>
