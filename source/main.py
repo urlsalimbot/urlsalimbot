@@ -69,6 +69,10 @@ def total_contributions(created_at: datetime) -> int:
     return total
 
 
+def _plural(count: int, unit: str) -> str:
+    return f"{count} {unit}" + ("" if count == 1 else "s")
+
+
 def age_string(birth: date, today: date) -> str:
     years = today.year - birth.year
     months = today.month - birth.month
@@ -79,14 +83,14 @@ def age_string(birth: date, today: date) -> str:
     if months < 0:
         years -= 1
         months += 12
-    return f"{years} years, {months} months, {days} days"
+    return f"{_plural(years, 'year')}, {_plural(months, 'month')}, {_plural(days, 'day')}"
 
 
 def collect() -> dict:
     user = gql(USER_QUERY, {"login": USER_NAME})["user"]
     owned = user["repositories"]["nodes"]
     return {
-        "age_data": age_string(BIRTHDATE, date.today()),
+        "age_data": age_string(BIRTHDATE, datetime.now(timezone.utc).date()),
         "repo_data": int(user["repositories"]["totalCount"]),
         "contrib_data": int(user["contributed"]["totalCount"]),
         "commit_data": total_contributions(datetime.fromisoformat(user["createdAt"].replace("Z", "+00:00"))),
