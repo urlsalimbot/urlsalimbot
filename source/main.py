@@ -3,11 +3,11 @@
 import json
 import os
 import urllib.request
-from datetime import datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
-from config import USER_NAME
+from config import BIRTHDATE, USER_NAME
 
 ROOT = Path(__file__).resolve().parent.parent
 TOKEN = os.environ.get("ACCESS_TOKEN") or os.environ.get("GITHUB_TOKEN")
@@ -69,10 +69,24 @@ def total_contributions(created_at: datetime) -> int:
     return total
 
 
+def age_string(birth: date, today: date) -> str:
+    years = today.year - birth.year
+    months = today.month - birth.month
+    days = today.day - birth.day
+    if days < 0:
+        months -= 1
+        days += (today.replace(day=1) - timedelta(days=1)).day
+    if months < 0:
+        years -= 1
+        months += 12
+    return f"{years} years, {months} months, {days} days"
+
+
 def collect() -> dict:
     user = gql(USER_QUERY, {"login": USER_NAME})["user"]
     owned = user["repositories"]["nodes"]
     return {
+        "age_data": age_string(BIRTHDATE, date.today()),
         "repo_data": int(user["repositories"]["totalCount"]),
         "contrib_data": int(user["contributed"]["totalCount"]),
         "commit_data": total_contributions(datetime.fromisoformat(user["createdAt"].replace("Z", "+00:00"))),
@@ -97,7 +111,7 @@ def update_svg(path: Path, stats: dict) -> None:
         element = root.find(f".//*[@id='{key}']")
         if element is None:
             continue
-        new_text = f"{value:,}"
+        new_text = f"{value:,}" if isinstance(value, int) else str(value)
         dots = root.find(f".//*[@id='{key}_dots']")
         if dots is not None:
             width = len(dots.text or "") + len(element.text or "")
@@ -111,7 +125,8 @@ def main() -> None:
         raise SystemExit("Set ACCESS_TOKEN (or GITHUB_TOKEN) first.")
     stats = collect()
     for name, value in stats.items():
-        print(f"{name:<14} {value:,}")
+        shown = f"{value:,}" if isinstance(value, int) else value
+        print(f"{name:<14} {shown}")
     for svg in ("dark_mode.svg", "light_mode.svg"):
         update_svg(ROOT / svg, stats)
 
