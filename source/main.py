@@ -3,7 +3,7 @@
 import json
 import os
 import urllib.request
-from datetime import date, datetime, timedelta, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
@@ -75,15 +75,9 @@ def _plural(count: int, unit: str) -> str:
 
 def age_string(birth: date, today: date) -> str:
     years = today.year - birth.year
-    months = today.month - birth.month
-    days = today.day - birth.day
-    if days < 0:
-        months -= 1
-        days += (today.replace(day=1) - timedelta(days=1)).day
-    if months < 0:
+    if (today.month, today.day) < (birth.month, birth.day):
         years -= 1
-        months += 12
-    return f"{_plural(years, 'year')}, {_plural(months, 'month')}, {_plural(days, 'day')}"
+    return _plural(years, "year")
 
 
 def collect() -> dict:

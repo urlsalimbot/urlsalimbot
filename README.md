@@ -4,3 +4,5 @@
     <img alt="Earl Salimbot's GitHub profile" src="https://raw.githubusercontent.com/urlsalimbot/urlsalimbot/main/light_mode.svg">
   </picture>
 </a>
+
+<!-- Pixel Teto adapted from https://github.com/saxxumm/tetoOS -->
